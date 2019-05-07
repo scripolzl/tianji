@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>排行榜</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="css-fy/meta8-min.css">
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").toggle();
+  });
+});
+</script>
+
+</head>
+<body>
+
+  <div id=localtime></div>
+
+
+<div id="quyu">
+    <div class="div1">
+      <div style="margin-top: 0px;border-top-width: 0px;border-top-style: solid;padding-top: 10px;">
+        <form class="form-inline">
+          <div class="form-group">
+          <label class="sr-only" for="exampleInputAmount">斗罗大陆三之龙王传说</label>
+          <div class="input-group">
+          <div class="input-group-addon">＆</div>
+           <input type="text" class="form-control" id="exampleInputAmount" placeholder="斗罗大陆三之龙王传说">
+          <div class="input-group-addon">☞</div>
+          </div>
+          </div>
+          <button type="submit" class="btn btn-primary">搜索</button>
+        </form> 
+      </div>
+    </div>
+
+    <p class="div2" style="margin-bottom: 10px;"><a href="#" style="text-decoration: none;">登录</a> | <a href="#" style="text-decoration: none;">注册</a></p>
+    <img src="img\tb.jpg" style="margin-top: -62px;margin-left: 1067px;">
+</div>
+
+    <ul class="dinbu" style="margin-bottom: 15px;margin-top: 10px;margin-left: 340px;">
+        <li class="din-bu" style="margin-left: 48px;"><a href="index.html">首页</a></li>
+        <li class="din-bu"><a href="nansheng.html">男生</a></li>
+        <li class="din-bu"><a href="nvsheng.html">女生</a></li>
+        <li class="din-bu"><a href="mianfei.html">免费</a></li>
+        <li class="din-bu"><a href="wanjie.html">完结</a></li>
+        <li class="din-bu"><a href="paihangbang.html">排行榜</a></li>
+    </ul>
+    <hr style="border-top-width: 5px;border-top-color: red;margin-top: -5px;" />
+
+    <div class="wrapper">
+    <div id="myCarousel" class="carousel slide">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li> 
+      </ol>   
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/lb-dldl.jpg" alt="First slide"></a>
+        </div>
+        <div class="item">
+          <img src="img/lb-qzgs.jpg" alt="Second slide"></a>
+        </div>
+        <div class="item">
+         <img src="img/lb-dpcq.jpg" alt="Third slide"></a>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+     
+    <div class="content box-center top-content clear">
+                            <div class="content-right fll">
+            <button style="margin-top: 40px;">分类</button>
+                <ul class="ph-list-name clear">
+                    <li><p><a href="#">新书榜<i class="icon hide"></i></a></p></li>
+                    <li><p><a href="#">畅销榜<i class="icon hide"></i></a></p></li>
+                    <li><p><a href="#">免费榜<i class="icon hide"></i></a></p></li>
+                    <li><p><a href="#">完本榜<i class="icon hide"></i></a></p></li>
+                    <li><p><a href="#">收藏榜<i class="icon hide"></i></a></p></li>
+                    <li><p><a href="#">男生榜<i class="icon hide"></i></a></p></li>
+                    <li><p><a href="#">女生榜<i class="icon hide"></i></a></p></li>
+                    <li><p><a href="#">分类榜单</a></li>
+                </ul>
+            </div>
+            <div class="content-left frl">
+                <ul class="ph-top-all clear">
+                    <li class="fll">
+                        <div class="ph-top">
+                            <div class="box-title">
+                                <a href="" class="text-title fll">畅销榜</a>
+                                <a href="" class="more frl">更多 &gt;</a>
+                            </div>
+                            <ul class="top-list">
+                                <li class="">
+                                    <a href="" class="top-detail">
+                                        <span class="text-ellips fll">权门婚宠</span>
+                                        <span class="book-author fll hide">作者：鱼歌</span>
+                                        <span class="book-type fll hide">分类：其他</span>
+                                        <span class="frl">其他</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">
+                                        <span class="text-ellips fll">驭房有术</span>
+                                        <span class="book-author fll hide">作者：铁锁</span>
+                                        <span class="book-type fll hide">分类：灵异</span>
+                                        <span class="frl">灵异</span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="" class="top-detail">
+                                        <span class="text-ellips fll">绝品毒医</span>
+                                        <span class="book-author fll hide">作者：无二</span>
+                                        <span class="book-type fll hide">分类：都市</span>
+                                        <span class="frl">都市</span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="" class="top-detail">
+                                        <span class="text-ellips fll">重生学霸小甜妻</span>
+                                        <span class="book-author fll hide">作者：依琴翩飞</span>
+                                        <span class="book-type fll hide">分类：青春校园</span>
+                                        <span class="frl">青春校园</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">
+                                        <span class="text-ellips fll">暖婚似火：顾少，轻轻宠</span>
+                                        <span class="book-author fll hide">作者：芊霓裳</span>
+                                        <span class="book-type fll hide">分类：豪门总裁</span>
+                                        <span class="frl">豪门总裁</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">
+                                        <span class="text-ellips fll">一世倾城</span>
+                                        <span class="book-author fll hide">作者：苏小暖</span>
+                                        <span class="book-type fll hide">分类：古代言情</span>
+                                        <span class="frl">古代言情</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">
+                                        <span class="text-ellips fll">桃运民工</span>
+                                        <span class="book-author fll hide">作者：狐大仙森</span>
+                                        <span class="book-type fll hide">分类：都市</span>
+                                        <span class="frl">都市</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">
+                                        <span class="text-ellips fll">天价宠妻：总裁夫人休想逃</span>
+                                        <span class="book-author fll hide">作者：白茶</span>
+                                        <span class="book-type fll hide">分类：豪门总裁</span>
+                                        <span class="frl">豪门总裁</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">
+                                        <span class="text-ellips fll">凤临天下:绝世弃妃</span>
+                                        <span class="book-author fll hide">作者：红颜祸水</span>
+                                        <span class="book-type fll hide">分类：穿越重生</span>
+                                        <span class="frl">穿越重生</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="fll">
+                        <div class="ph-top">
+                            <div class="box-title">
+                                <a href="" class="text-title fll">新书榜</a>
+                                <a href="" class="more frl">更多 &gt;</a>
+                            </div>
+                            <ul class="top-list">
+                                <li class="">
+                                    <a href="" class="top-detail">                                     
+                                        <span class="text-ellips fll">都市之修真狂少</span>
+                                        <span class="book-author fll hide">作者：我爱吃火锅</span>
+                                        <span class="book-type fll hide">分类：都市</span>
+                                        <span class="frl">都市</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                    
+                                        <span class="text-ellips fll">强宠1001夜：总裁别乱来</span>
+                                        <span class="book-author fll hide">作者：懒可可</span>
+                                        <span class="book-type fll hide">分类：豪门总裁</span>
+                                        <span class="frl">豪门总裁</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                      
+                                        <span class="text-ellips fll">宠妻成瘾：总裁大人请赐教</span>
+                                        <span class="book-author fll hide">作者：花间不相识</span>
+                                        <span class="book-type fll hide">分类：豪门总裁</span>
+                                        <span class="frl">豪门总裁</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                     
+                                        <span class="text-ellips fll">都市之青帝归来</span>
+                                        <span class="book-author fll hide">作者：乔木</span>
+                                        <span class="book-type fll hide">分类：都市</span>
+                                        <span class="frl">都市</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                     
+                                        <span class="text-ellips fll">诱妻三十六计，总裁你好坏</span>
+                                        <span class="book-author fll hide">作者：又兮</span>
+                                        <span class="book-type fll hide">分类：豪门总裁</span>
+                                        <span class="frl">豪门总裁</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https:" class="top-detail">                                      
+                                        <span class="text-ellips fll">似景繁花：余生都是你</span>
+                                        <span class="book-author fll hide">作者：晓柔雯雯</span>
+                                        <span class="book-type fll hide">分类：现代言情</span>
+                                        <span class="frl">现代言情</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                  
+                                        <span class="text-ellips fll">开挂吃鸡侠</span>
+                                        <span class="book-author fll hide">作者：巨情</span>
+                                        <span class="book-type fll hide">分类：武侠</span>
+                                        <span class="frl">武侠</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                  
+                                        <span class="text-ellips fll">荣耀世界之王者荣耀</span>
+                                        <span class="book-author fll hide">作者：段魂不灭</span>
+                                        <span class="book-type fll hide">分类：游戏</span>
+                                        <span class="frl">游戏</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">
+                                        <span class="text-ellips fll">儒道枭雄</span>
+                                        <span class="book-author fll hide">作者：六月无常</span>
+                                        <span class="book-type fll hide">分类：玄幻</span>
+                                        <span class="frl">玄幻</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>                    
+                    <li class="fll" style="margin-left: -8px;">
+                        <div class="ph-top">
+                            <div class="box-title">
+                                <a href="" class="text-title fll">完本榜</a>
+                                <a href="h" class="more frl">更多 &gt;</a>
+                            </div>
+                            <ul class="top-list">
+                                <li>
+                                    <a href="" class="top-detail">                                      
+                                        <span class="text-ellips fll">女总裁的顶级兵王</span>
+                                        <span class="book-author fll hide">作者：天下</span>
+                                        <span class="book-type fll hide">分类：都市</span>
+                                        <span class="frl">都市</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                       
+                                        <span class="text-ellips fll">天价宠妻：总裁夫人休想逃</span>
+                                        <span class="book-author fll hide">作者：白茶</span>
+                                        <span class="book-type fll hide">分类：豪门总裁</span>
+                                        <span class="frl">豪门总裁</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                      
+                                        <span class="text-ellips fll">妙手仁医</span>
+                                        <span class="book-author fll hide">作者：雪糕</span>
+                                        <span class="book-type fll hide">分类：都市</span>
+                                        <span class="frl">都市</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                       
+                                        <span class="text-ellips fll">闪婚神秘老公</span>
+                                        <span class="book-author fll hide">作者：我是木木</span>
+                                        <span class="book-type fll hide">分类：豪门总裁</span>
+                                        <span class="frl">豪门总裁</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                      
+                                        <span class="text-ellips fll">迫嫁为妾：王爷太放肆</span>
+                                        <span class="book-author fll hide">作者：点点雪</span>
+                                        <span class="book-type fll hide">分类：古代言情</span>
+                                        <span class="frl">古代言情</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                      
+                                        <span class="text-ellips fll">爆宠前妻：老公，不可以</span>
+                                        <span class="book-author fll hide">作者：安小落</span>
+                                        <span class="book-type fll hide">分类：现代言情</span>
+                                        <span class="frl">现代言情</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                       
+                                        <span class="text-ellips fll">校花之贴身高手</span>
+                                        <span class="book-author fll hide">作者：寂无</span>
+                                        <span class="book-type fll hide">分类：都市</span>
+                                        <span class="frl">都市</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                      
+                                        <span class="text-ellips fll">盛世嫡妃</span>
+                                        <span class="book-author fll hide">作者：凤轻</span>
+                                        <span class="book-type fll hide">分类：古代言情</span>
+                                        <span class="frl">古代言情</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                      
+                                        <span class="text-ellips fll">女总裁的超级兵王</span>
+                                        <span class="book-author fll hide">作者：挥墨客</span>
+                                        <span class="book-type fll hide">分类：都市</span>
+                                        <span class="frl">都市</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="fll">
+                        <div class="ph-top">
+                            <div class="box-title">
+                                <a href="" class="text-title fll">收藏榜</a>
+                                <a href="" class="more frl">更多 &gt;</a>
+                            </div>
+                            <ul class="top-list">
+                                <li>
+                                    <a href="" class="top-detail">                                       
+                                        <span class="text-ellips fll">一世倾城</span>
+                                        <span class="book-author fll hide">作者：苏小暖</span>
+                                        <span class="book-type fll hide">分类：古代言情</span>
+                                        <span class="frl">古代言情</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                     
+                                        <span class="text-ellips fll">女总裁的顶级兵王</span>
+                                        <span class="book-author fll hide">作者：天下</span>
+                                        <span class="book-type fll hide">分类：都市</span>
+                                        <span class="frl">都市</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                     
+                                        <span class="text-ellips fll">天价宠妻：总裁夫人休想逃</span>
+                                        <span class="book-author fll hide">作者：白茶</span>
+                                        <span class="book-type fll hide">分类：豪门总裁</span>
+                                        <span class="frl">豪门总裁</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                      
+                                        <span class="text-ellips fll">妙手仁医</span>
+                                        <span class="book-author fll hide">作者：雪糕</span>
+                                        <span class="book-type fll hide">分类：都市</span>
+                                        <span class="frl">都市</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                      
+                                        <span class="text-ellips fll">闪婚神秘老公</span>
+                                        <span class="book-author fll hide">作者：我是木木</span>
+                                        <span class="book-type fll hide">分类：豪门总裁</span>
+                                        <span class="frl">豪门总裁</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                      
+                                        <span class="text-ellips fll">迫嫁为妾：王爷太放肆</span>
+                                        <span class="book-author fll hide">作者：点点雪</span>
+                                        <span class="book-type fll hide">分类：古代言情</span>
+                                        <span class="frl">古代言情</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                       
+                                        <span class="text-ellips fll">爆宠前妻：老公，不可以</span>
+                                        <span class="book-author fll hide">作者：安小落</span>
+                                        <span class="book-type fll hide">分类：现代言情</span>
+                                        <span class="frl">现代言情</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                       
+                                        <span class="text-ellips fll">驭房有术</span>
+                                        <span class="book-author fll hide">作者：铁锁</span>
+                                        <span class="book-type fll hide">分类：灵异</span>
+                                        <span class="frl">灵异</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">
+                                        <span class="text-ellips fll">冥冥之中喜欢你</span>
+                                        <span class="book-author fll hide">作者：姒城城</span>
+                                        <span class="book-type fll hide">分类：豪门总裁</span>
+                                        <span class="frl">豪门总裁</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="fll">
+                        <div class="ph-top">
+                            <div class="box-title">
+                                <a href="" class="text-title fll">男生榜</a>
+                                <a href="" class="more frl">更多 &gt;</a>
+                            </div>
+                            <ul class="top-list">
+                                <li>
+                                    <a href="" class="top-detail">                                       
+                                        <span class="text-ellips fll">妙手仁医</span>
+                                        <span class="book-author fll hide">作者：雪糕</span>
+                                        <span class="book-type fll hide">分类：都市</span>
+                                        <span class="frl">都市</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                      
+                                        <span class="text-ellips fll">驭房有术</span>
+                                        <span class="book-author fll hide">作者：铁锁</span>
+                                        <span class="book-type fll hide">分类：灵异</span>
+                                        <span class="frl">灵异</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                        
+                                        <span class="text-ellips fll">校花之贴身高手</span>
+                                        <span class="book-author fll hide">作者：寂无</span>
+                                        <span class="book-type fll hide">分类：都市</span>
+                                        <span class="frl">都市</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                      
+                                        <span class="text-ellips fll">女总裁的超级兵王</span>
+                                        <span class="book-author fll hide">作者：挥墨客</span>
+                                        <span class="book-type fll hide">分类：都市</span>
+                                        <span class="frl">都市</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                       
+                                        <span class="text-ellips fll">桃运民工</span>
+                                        <span class="book-author fll hide">作者：狐大仙森</span>
+                                        <span class="book-type fll hide">分类：都市</span>
+                                        <span class="frl">都市</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                       
+                                        <span class="text-ellips fll">透视法则</span>
+                                        <span class="book-author fll hide">作者：土豆爱番茄</span>
+                                        <span class="book-type fll hide">分类：都市</span>
+                                        <span class="frl">都市</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                     
+                                        <span class="text-ellips fll">打工皇帝</span>
+                                        <span class="book-author fll hide">作者：风中凌乱</span>
+                                        <span class="book-type fll hide">分类：都市</span>
+                                        <span class="frl">都市</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                       
+                                        <span class="text-ellips fll">无上传承</span>
+                                        <span class="book-author fll hide">作者：落尘</span>
+                                        <span class="book-type fll hide">分类：玄幻</span>
+                                        <span class="frl">玄幻</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">
+                                        <span class="text-ellips fll">最强兵王混花都</span>
+                                        <span class="book-author fll hide">作者：朽木可雕</span>
+                                        <span class="book-type fll hide">分类：都市</span>
+                                        <span class="frl">都市</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="fll" style="margin-left: -8px;">
+                        <div class="ph-top">
+                            <div class="box-title">
+                                <a href="" class="text-title fll">女生榜</a>
+                                <a href="" class="more frl">更多 &gt;</a>
+                            </div>
+                            <ul class="top-list">
+                                <li>
+                                    <a href="" class="top-detail">                                       
+                                        <span class="text-ellips fll">一世倾城</span>
+                                        <span class="book-author fll hide">作者：苏小暖</span>
+                                        <span class="book-type fll hide">分类：古代言情</span>
+                                        <span class="frl">古代言情</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                       
+                                        <span class="text-ellips fll">天价宠妻：总裁夫人休想逃</span>
+                                        <span class="book-author fll hide">作者：白茶</span>
+                                        <span class="book-type fll hide">分类：豪门总裁</span>
+                                        <span class="frl">豪门总裁</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                       
+                                        <span class="text-ellips fll">闪婚神秘老公</span>
+                                        <span class="book-author fll hide">作者：我是木木</span>
+                                        <span class="book-type fll hide">分类：豪门总裁</span>
+                                        <span class="frl">豪门总裁</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                       
+                                        <span class="text-ellips fll">迫嫁为妾：王爷太放肆</span>
+                                        <span class="book-author fll hide">作者：点点雪</span>
+                                        <span class="book-type fll hide">分类：古代言情</span>
+                                        <span class="frl">古代言情</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                     
+                                        <span class="text-ellips fll">爆宠前妻：老公，不可以</span>
+                                        <span class="book-author fll hide">作者：安小落</span>
+                                        <span class="book-type fll hide">分类：现代言情</span>
+                                        <span class="frl">现代言情</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">
+                                       <span class="text-ellips fll">冥冥之中喜欢你</span>
+                                        <span class="book-author fll hide">作者：姒城城</span>
+                                        <span class="book-type fll hide">分类：豪门总裁</span>
+                                        <span class="frl">豪门总裁</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                       
+                                        <span class="text-ellips fll">盛世嫡妃</span>
+                                        <span class="book-author fll hide">作者：凤轻</span>
+                                        <span class="book-type fll hide">分类：古代言情</span>
+                                        <span class="frl">古代言情</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">                                       
+                                        <span class="text-ellips fll">娇妻高高在上</span>
+                                        <span class="book-author fll hide">作者：唐渐浓</span>
+                                        <span class="book-type fll hide">分类：现代言情</span>
+                                        <span class="frl">现代言情</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="top-detail">
+                                        <span class="text-ellips fll">皇上，请您雨露均沾</span>
+                                        <span class="book-author fll hide">作者：miss_苏</span>
+                                        <span class="book-type fll hide">分类：古代言情</span>
+                                        <span class="frl">古代言情</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+<!---->
+<div class="ft" id="quyu-kb4">
+            <p class="ft1">
+                <a href="" style="text-decoration: none;">关于我们</a>
+                <a href="" style="text-decoration: none;">官方微博</a>
+                <a href="" style="text-decoration: none;">意见反馈及投诉</a>
+                <a href="" style="text-decoration: none;">用户服务协议</a>
+                <a href="" style="text-decoration: none;">隐私政策</a>
+                <a href="" style="text-decoration: none;">网址大全</a>
+            </p>
+            <p>健康阅读公告，抵制不良小说，拒绝盗版小说。注意自我保护，谨防上当受骗。合理安排时间，享受健康生活。</p>
+            <p class="op0">
+                <span>Reading novels is our pastime or hobby in our spare time.</span>
+                <a href="" style="text-decoration: none;" pbflag="底部" pbtag="icp"> 鸿雁传书等你来用</a>
+                &nbsp;&nbsp;
+            </p>
+            <p class="opo">HYCS 版权所有</p>
+    </div>
+    
+<script type="text/javascript">
+function showLocale(objD)
+{
+  var str,colorhead,colorfoot;
+  var yy = objD.getYear();
+  if(yy<1900) yy = yy+1900;
+  var MM = objD.getMonth()+1;
+  if(MM<10) MM = '0' + MM;
+  var dd = objD.getDate();
+  if(dd<10) dd = '0' + dd;
+  var hh = objD.getHours();
+  if(hh<10) hh = '0' + hh;
+  var mm = objD.getMinutes();
+  if(mm<10) mm = '0' + mm;
+  var ss = objD.getSeconds();
+  if(ss<10) ss = '0' + ss;
+  var ww = objD.getDay();
+  if  ( ww==0 )  colorhead="<font color=\"#FF0000\">";
+  if  ( ww > 0 && ww < 6 )  colorhead="<font color=\"#373737\">";
+  if  ( ww==6 )  colorhead="<font color=\"#008000\">";
+  if  (ww==0)  ww="星期日";
+  if  (ww==1)  ww="星期一";
+  if  (ww==2)  ww="星期二";
+  if  (ww==3)  ww="星期三";
+  if  (ww==4)  ww="星期四";
+  if  (ww==5)  ww="星期五";
+  if  (ww==6)  ww="星期六";
+  colorfoot="</font>"
+  str = colorhead + yy + "-" + MM + "-" + dd + " " + hh + ":" + mm + ":" + ss + "  " + ww + colorfoot;
+  return(str);
+}
+function tick()
+{
+  var today;
+  today = new Date();
+  document.getElementById("localtime").innerHTML = showLocale(today);
+  window.setTimeout("tick()", 1000);
+}
+tick();
+</script>
+</body>
+</html>
