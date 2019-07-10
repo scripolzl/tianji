@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="css/swiper.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+    </script>
+      
+</head>
+<body>
+    <div class="box">
+    	<!-- 顶部 -->
+         <div class="head">
+         	<span>网站首页</span>
+         </div>
+
+         <!-- 轮播 -->
+         <div class="lunbo">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/banner_01.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/banner_02.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/banner_03.jpg" alt=""></div>                    
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <script src="../shouye/js/swiper.min.js"></script>
+            <script>
+              var swiper = new Swiper('.swiper-container', {
+                spaceBetween: 0,
+                pagination: {
+                  el: '.swiper-pagination',
+                  clickable: true,
+                },
+              });
+            </script>
+         </div>
+
+         <!-- 内容 -->
+         <div class="content">
+         	<div class="top">
+         		<div class="top_div">
+         		    <img src="images/json.jpg" alt="">
+         		    <span>恭喜<em class="em1">sallan5337</em>河内五分彩喜中<em class="em2">1000</em>元</span>
+         		</div>
+         		<ul class="top_ul">
+         			<li><img src="images/r2_c2.jpg" alt="" class="ra"></li>
+         			<li><img src="images/gang.jpg" alt="" class="rb"></li>
+         			<li><img src="images/r2_c3.jpg" alt="" class="rc"></li>
+         			<li><img src="images/gang.jpg" alt="" class="rd"></li>
+         			<li><img src="images/r2_c4.jpg" alt="" class="re"></li>
+         		</ul>
+         	</div>
+         	<div class="bottom">
+         		<div class="btt_hd">
+         			<div></div>
+         			<h3>热门彩种</h3>
+         			<span><a href="#">MORE>></a></span>
+         		</div>
+         		<ul class="btt_ul">
+         			<li class="btt_li bt_li">
+         				<div><img src="images/r9_c3.jpg" alt=""></div>
+        				<h3>江苏快三</h3>
+         				<p>火爆开售</p>
+         			</li>
+         			<li class="btt_li">
+         				<div><img src="images/r9_c8.jpg" alt=""></div>
+        				<h3>印尼五分彩</h3>
+         				<p>全天24小时开售</p>
+         			</li>
+         			<li class="btt_li">
+         				<div><img src="images/r9_c10.jpg" alt=""></div>
+         				<h3>河内五分彩</h3>
+         				<p>五分钟一期</p>
+         			</li>
+         			<li class="btt_li">
+         				<div><img src="images/r9_c11.jpg" alt=""></div>
+         				<h3>重庆时时彩</h3>
+         				<p>每天120期哦</p>
+         			</li>
+         			<li class="btt_ll">
+         				<div><img src="images/r11_c3.jpg" alt=""></div>
+         				<h3>新疆时时彩</h3>
+         				<p>2元赢取1800</p>
+         			</li>
+         			<li class="btt_ll">
+         				<div><img src="images/r11_c9.jpg" alt=""></div>
+         				<h3>十一运夺金</h3>
+         				<p>每天开奖78次</p>
+         			</li>
+         			<li class="btt_ll">
+         				<div><img src="images/r11_c11.jpg" alt=""></div>
+         				<h3>广东11选5</h3>
+         				<p>任选玩法，中奖率高</p>
+         			</li>
+         			<li class="btt_ll">
+         				<div><img src="images/r11_c12.jpg" alt=""></div>
+         				<h3>江西11选5</h3>
+         				<p>十分钟一期</p>
+         			</li>
+         		</ul>
+         	</div>
+         </div>
+
+         <!-- 底部 -->
+         <div class="foot">
+         	<ul>
+         		<li><p class="iconfont">&#xe600;</p><div>购彩大厅</div></li>
+         		<li><p class="iconfont">&#xe6a5;</p><div>合买跟单</div></li>
+         		<li><p class="iconfont">&#xe624;</p><div>开奖公告</div></li>
+         		<li><p class="iconfont">&#xe603;</p><div>会员中心</div></li>
+         	</ul>
+         </div>
+    </div>
+</body>
+</html>

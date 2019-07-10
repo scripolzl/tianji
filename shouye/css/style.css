@@ -1,0 +1,176 @@
+@charset "utf-8";
+body{
+	background-color: #FFCCCC;
+}
+.box{
+	width: 16.0rem;
+	height: 27.2rem;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+}
+/*顶部*/
+.head{
+	width: 16.0rem;
+	height: 1.625rem;
+	background-color: #333;
+}
+.head span{
+	line-height: 1.625rem;
+	margin-left: 6.95rem;
+	font-size: 0.6rem;
+	color: #F0F7FC;
+}
+/*轮播*/
+.lunbo{ 
+    height: 7.15rem;   
+}
+.lunbo .swiper-container{
+    width: 640px;
+    height: 286px;
+}
+.lunbo .swiper-slide{
+    background: #EEE; 
+}
+/*内容--top*/
+.content .top{
+	height: 5.375rem;
+}
+.content .top_div{
+	height: 1.5rem;
+}
+.content .top_div img{
+	margin-left: 0.425rem;
+	margin-top: 0.275rem;
+}
+.content .top_div span{
+	font-size: 0.45rem;
+	line-height: 1.5rem;
+}
+.content .top_div .em1{
+	color: #03B118;
+}
+.content .top_div .em2{
+	color: #E10000;
+}
+.content .top_ul{
+	width: 16.0rem;
+	height: 3.85rem;
+	border-top: 0.025rem solid #EFEFEF;
+	border-bottom: 0.25rem solid #EFEFEF;
+	font-size: 0;
+	position: relative;
+}
+.content .top_ul li{
+	display: inline-block;
+}
+.content .top_ul .ra{
+    position: absolute;
+    left: 1.4rem;top: 0.4rem;
+}
+.content .top_ul .rb{
+    position: absolute;
+    left: 5.45rem;
+}
+.content .top_ul .rc{
+    position: absolute;
+    left: 6.6rem;top: 0.4rem;
+}
+.content .top_ul .rd{
+    position: absolute;
+    right: 5.525rem;
+}
+.content .top_ul .re{
+    position: absolute;
+    right: 1.35rem;top: 0.4rem;
+}
+/*内容--bottom*/
+.content .bottom{
+	height: 10.475rem;
+	margin-top: 0.25rem;
+}
+.btt_hd{
+	height: 1.55rem;
+}
+.btt_hd div{
+	float: left;
+	width: 0.075rem;
+	height: 0.35rem;
+	background-color: #F4741E;
+	margin: 0.65rem 0.325rem 0 0.3rem;
+}
+.btt_hd h3{
+	float: left;
+	font-size: 0.45rem;
+	margin-top: 0.5rem;
+}
+.btt_hd span{
+	float: right;
+	font-size: 0.3rem;
+	color: #D3D3D3;
+	margin-top: 0.75rem;
+	margin-right: 0.3rem;
+}
+.btt_ul{
+	height: 7.9rem;
+	font-size: 0;
+}
+.btt_ul li{	
+	width: 3.95rem;
+	height: 3.9rem;
+}
+.btt_ul .btt_li{
+	float: left;
+	border-top: 0.05rem solid #EFEFEF;
+	border-right: 0.05rem solid #EFEFEF;
+}
+.btt_ul .btt_ll{
+	float: left;
+	border-top: 0.05rem solid #EFEFEF;
+	border-right: 0.05rem solid #EFEFEF;
+	border-bottom: 0.05rem solid #EFEFEF;
+}
+.btt_ul li div{
+	text-align: center;
+	margin-top: 0.45rem;
+	margin-bottom: 0.55rem;
+}
+.btt_ul li h3{
+	font-size: 0.45rem;
+	color: #000;
+	text-align: center;
+	margin-bottom: 0.25rem;
+}
+.btt_ul li p{
+	font-size: 0.35rem;
+	color: #999;
+	text-align: center;
+}
+/*底部*/
+.foot{
+	height: 2.3rem;
+	background-color: #333;
+}
+.foot ul{
+	font-size: 0;
+}
+.foot ul li{
+	display: inline-block;
+	width: 4.0rem;
+	height: 2.3rem;
+}
+.foot ul li div{
+	font-size: 0.45rem;
+	color: #FFF;
+	text-align: center;
+	margin-top: 0.3rem;
+}
+.foot ul li p{
+	font-size: 0.95rem;
+	color: #FFF;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.foot ul li:hover{
+	background-color: #FF8A00;
+}
